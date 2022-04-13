@@ -1,38 +1,94 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #cca98c;
+min-height: 600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.auction{
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 5px;
+  
+}
+h1{
+  font-size: 23px;
+  
+
+  letter-spacing: 1px;
+  text-shadow: 1px 1px grey;
+  font-family: 'Anek Bangla', sans-serif;
+  margin: 0;
+}
+h2{
+  font-size: 24px;
+  margin: 0;
+  margin-top: 30px;
+  letter-spacing: 6px;
+  font-family: 'Anek Bangla', sans-serif;
+  color: whitesmoke;
+}
+h3{
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Anek Bangla', sans-serif;
+  color: whitesmoke;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lot{
+  margin-top: 35px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(46, 45, 45);
+  background-color: antiquewhite;
+  
+}
+.pic{
+  
+  font-size: 17px;
+  margin: 0;
+  font-family: 'Anek Bangla', sans-serif;
+}
+.item{
+  background-color: white;
+  margin-top: 20px;
+}
+img{
+  margin-top: 16px;
+}
+.price{
+  font-size: 19px;
+  margin: 0;
+  font-family: 'Anek Bangla', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  margin-top: 15px;
+  margin: 20px;
+  width: 170px;
+  padding: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #cca98c;
+  color: whitesmoke;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.mail{
+  font-size: 19px;
+  color: rgb(46, 45, 45);
+}
+.footer{
+  margin-top: 20px;
+}
+
+input{
+  padding: 9px;
+  border: none;
+}
+.send{
+  border: 2px solid whitesmoke;
 }
